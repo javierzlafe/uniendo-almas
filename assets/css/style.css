@@ -946,4 +946,9 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+
+  #carrousel-item{
+    position: relative;
+   max-width: min-content;
+  }
 }
