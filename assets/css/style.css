@@ -71,7 +71,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -996,4 +997,8 @@ section {
   .img-general {
     border-radius: 20px;
     box-shadow: 0px 0px 10px #000;
+    }
+
+    #footer_frase{
+      color: #fc7406;
     }
