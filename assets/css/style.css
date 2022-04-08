@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 #header .profile img {
-  margin: 15px auto;
+  margin: 7px auto;
   display: block;
   width: 120px;
   border: 1px solid #ffffff;
@@ -253,6 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  padding-bottom: 10px ;
 }
 
 .section-bg {
@@ -940,8 +941,9 @@ section {
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
+  
 }
-@media (max-width: 1244px) {
+@media (max-width: 1500px) {
   #footer {
     position: static;
     width: auto;
@@ -1001,4 +1003,18 @@ section {
 
     #footer_frase{
       color: #fc7406;
+      text-align: center;
+      font-size: 30px;
     }
+
+    .navbar-logo{
+      display: inline-block;
+      vertical-align: middle;
+      width: 30px;
+    }
+    .navbar-logo img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
